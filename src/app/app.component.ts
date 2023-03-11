@@ -33,4 +33,10 @@ export class AppComponent {
    this.days = Math.ceil(Difference_In_Time / (1000 * 3600 * 24));
      
   }
+
+  play() {
+    console.log('test')
+    var audio = new Audio('assets/audio1.ogg');
+    audio.play();
+  }
 }
