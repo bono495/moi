@@ -37,7 +37,7 @@ export class AppComponent {
   play() {
     const random = Math.floor(Math.random() * 20)
     console.log(random)
-    var audio = new Audio(`assets/audio${random}.ogg`);
+    var audio = new Audio(`assets/audio${random}.mp3`);
     audio.play();
   }
 }
